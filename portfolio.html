@@ -16,31 +16,45 @@
 </head>
 
 <body>
-    <header class="heder">
+    <header class="header">
         <div class="container container-header">
-            <nav class="heder-menu">
+            <nav class="header-menu">
                 <!-- logo -->
                 <a href="./index.html" class="logo link">Web<span class="dark-logo">Studio</span></a>
                 <!-- section -->
                 <ul class="menu list">
                     <li class="menu-item">
-                        <a href="./index.html" class="menu-link link">Studio</a>
+                        <a href="./index.html" class="menu-link current link">Studio</a>
                     </li>
                     <li class="menu-item">
-                        <a href="./portfolio.html" class="menu-link current link">Portfolio</a>
+                        <a href="./portfolio.html" class="menu-link link">Portfolio</a>
                     </li>
                     <li class="menu-item">
                         <a href="" class="menu-link link">Contacts</a>
                     </li>
                 </ul>
             </nav>
-            <!-- contacts -->
-            <address class="contacts">
-                <ul class="contacts list">
-                    <li><a href="mailto:info@devstudio.com" class="contacts-item link">info@devstudio.com</a></li>
-                    <li><a href="tel:+110001111111" class="contacts-item link">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
+
+    <!-- burger-btn -->
+
+    <button
+          class="menu-button js-open-menu" aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="burger-mobile-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+        <address class="contact">
+          <ul class="contact-list list">
+            <li class="contact-list-item"><a class="contact-item link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+            </li>
+            <li class="contact-list-item"><a class="contact-item link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
         </div>
     </header>
     <main>
